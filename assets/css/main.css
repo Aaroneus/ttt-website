@@ -4243,3 +4243,12 @@
 .deal-highlights {
 	list-style-type: none;
 }
+
+.bx-wrapper .bx-viewport {	
+	background: #EEE;   
+}
+
+.bxslider li {
+    background: #EEE;
+    height:100px;
+}
