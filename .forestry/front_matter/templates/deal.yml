@@ -18,11 +18,6 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: additional-images
-  label: Additional images
-  type: list
-  hidden: false
-  default: []
 - name: price
   label: Price
   type: text
@@ -34,16 +29,6 @@ fields:
   hidden: false
   default: ''
 - type: image_gallery
-  name: gallery
-  label: gallery
-  description: The images found in the gallery
-  default:
-  - "/uploads/pic09.jpg"
-  - "/uploads/pic03.jpg"
-  - "/uploads/pic06.jpg"
-  - "/uploads/pic02.jpg"
-  - "/uploads/pic04.jpg"
-  - "/uploads/pic10.jpg"
-  - "/uploads/pic05.jpg"
-  - "/uploads/pic08.jpg"
-  - "/uploads/pic01.jpg"
+  name: additional-images
+  label: Additional Images
+  description: Additional Images for the Carousel
