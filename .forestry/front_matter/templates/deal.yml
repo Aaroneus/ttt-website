@@ -31,3 +31,5 @@ fields:
   type: list
   hidden: false
   default: ''
+pages:
+- _posts/the-gore-hotel-london.md
