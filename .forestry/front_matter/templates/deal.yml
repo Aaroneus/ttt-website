@@ -13,11 +13,10 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: main-image
-  label: Main image
-  type: text
-  hidden: false
-  default: ''
+- type: file
+  name: main-image
+  label: Main Image
+  description: The Main Image for the Deal
 - type: image_gallery
   name: additional-images
   label: Additional Images
