@@ -1,0 +1,112 @@
+---
+layout: default
+---
+	<!-- Banner -->
+	<section id="banner">
+		<img src="images/logo2.png" alt="logo" />
+		<br />
+		<ul class="actions">
+			<li>
+				<a href="#one" class="button big special">See Our Deals</a>
+			</li>
+		</ul>
+	</section>
+
+	<!-- One -->
+	<section id="one" class="wrapper style1 special">
+		<div class="inner">
+			<header class="major narrow	">
+				<h2>Our Latest Deals</h2>
+			</header>
+			{% include deals.html %}			
+		</div>
+	</section>
+
+	<!-- Three -->
+	<section id="three" class="wrapper style3 special">
+		<div class="inner">
+			<header class="major narrow	">
+				<h2>A little about us...</h2>
+				<p>We are an independent Travel Agency specialising in holiday packages that meet all your travel needs.</p>
+				<p>No two holidays are the same so get in touch via the form below or if you'd rather, give us a call.</p>
+			</header>
+			<ul class="actions">
+				<li>
+					<a href="tel:+441179653963" class="button big alt">+44 (0)1179 653963</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<!-- Four -->
+	<section id="four" class="wrapper style2 special">
+		<div class="inner">
+			<header class="major narrow">
+				<h2>Get in touch</h2>
+				<p>All we need is a few pieces of information to find you your dream holiday.</p>
+			</header>
+
+			<form action="https://formspree.io/aaroneus@gmail.com" method="POST">
+				<div class="container 75%">
+					<div class="row uniform 50%">
+						<div class="6u 12u$(xsmall)">
+							<input name="name" placeholder="Name" type="text" />
+						</div>
+						<div class="6u$ 12u$(xsmall)">
+							<input name="email" placeholder="Email" type="email" />
+						</div>
+						<div class="6u 12u$(xsmall)">
+							<input name="destination" placeholder="Where Would You Like To Go?" type="text" />
+						</div>
+						<div class="6u$ 12u$(xsmall)">
+							<select name="departure-airport" placeholder="Departure Airport">
+								<option value="" disabled selected>Departure Airport</option>
+								<option value="Bristol">Bristol</option>
+								<option value="Birmingham">Birmingham</option>
+								<option value="Bournemouth">Bournemouth</option>
+								<option value="London-Gatwick">London Gatwick</option>
+							</select>							
+						</div>
+						<div class="6u 12u$(xsmall)">
+							<input type="radio" id="destination-hot" name="holiday-type" value="hot" checked>
+							<label for="destination-hot">Warm Holiday</label>
+						</div>
+						<div class="6u 12u$(xsmall)">
+							<input type="radio" id="destination-cold" name="holiday-type" value="cold">
+							<label for="destination-cold">Cold Holiday</label>
+						</div>
+						<div class="6u 12u$(xsmall)">
+							<input name="leaving-date" placeholder="Leaving - dd/mm/yyyy" type="text" />
+						</div>
+						<div class="6u$ 12u$(xsmall)">
+							<input name="return-date" placeholder="Returning - dd/mm/yyyy" type="text" />
+						</div>
+						<div class="6u 12u$(xsmall)">
+							<input name="no_of_adults" placeholder="# of Adults" type="text" />
+						</div>
+						<div class="6u$ 12u$(xsmall)">
+							<input name="no_of_children" placeholder="# of Children" type="text" />
+						</div>
+						<div class="12u$">
+							<textarea name="message" placeholder="Tell us what you would like from your holiday?" rows="4"></textarea>
+						</div>
+					</div>
+				</div>
+				<ul class="actions">
+					<li>
+						<input type="submit" class="special" value="Submit" />
+					</li>
+					<li>
+						<input type="reset" class="alt" value="Reset" />
+					</li>
+				</ul>
+			</form>
+		</div>
+	</section>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="assets/js/main.js"></script>

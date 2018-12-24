@@ -1,0 +1,37 @@
+--- 
+layout: default 
+---
+
+<!-- Main -->
+<section id="main" class="wrapper special style1">
+  <div class="inner">
+    <header class="major">
+      <h2>
+        <img src="/images/logo.png" width="200px" height="200px" alt="logo" />
+      </h2>
+      <h2>{{ page.title }}</h2>
+    </header>
+
+    <div class="12u$ slider">
+      {% for image in page.additional-images %}
+      <div>
+        <span class="image fit">
+          <img src="{{ image }}" alt="" />
+        </span>
+      </div>
+      {% endfor %}      
+    </div>
+
+    <p>{{ content }}</p>
+    <ul class="deal-highlights">
+      {% for item in page.highlights %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+    <ul class="actions">
+      <li>
+        <div class="button big special">From {{ page.price }}</div>
+      </li>
+    </ul>
+  </div>
+</section>

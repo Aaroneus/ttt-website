@@ -1,0 +1,8 @@
+- name: Home
+  link: /newindex.html
+- name: Our Deals
+  link: /newindex.html#one
+- name: About Us
+  link: /newindex.html#three
+- name: Get In Touch
+  link: /newindex.html#four
