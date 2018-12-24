@@ -3,6 +3,7 @@ layout: post
 title: The Gore Hotel London
 main-image: "/uploads/thegore.jpeg"
 additional-images:
+- "/uploads/thegore.jpeg"
 - "/uploads/pic10.jpg"
 - "/uploads/pic03.jpg"
 - "/uploads/pic06.jpg"
