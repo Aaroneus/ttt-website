@@ -1,5 +1,5 @@
 ---
-layout: ''
+layout: post
 title: The Gore Hotel London
 main-image: "/uploads/thegore.jpeg"
 additional-images:
