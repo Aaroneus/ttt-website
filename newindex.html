@@ -3,7 +3,7 @@ layout: default
 ---
 	<!-- Banner -->
 	<section id="banner">
-		<img src="/images/logo2.png" alt="logo" />
+		<img src="{{ '/images/logo2.png' | relative_url }}" alt="logo" />
 		<br />
 		<ul class="actions">
 			<li>
@@ -105,8 +105,8 @@ layout: default
 	</section>
 
 	<!-- Scripts -->
-	<script src="/assets/js/jquery.min.js"></script>
-	<script src="/assets/js/skel.min.js"></script>
-	<script src="/assets/js/util.js"></script>
+	<script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/js/skel.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/js/util.js' | relative_url }}"></script>
 	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="/assets/js/main.js"></script>
+	<script src="{{ '/assets/js/main.js' | relative_url }}"></script>
