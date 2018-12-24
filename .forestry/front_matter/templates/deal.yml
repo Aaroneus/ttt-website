@@ -7,7 +7,7 @@ fields:
   label: Layout
   type: text
   hidden: false
-  default: ''
+  default: post
 - name: title
   label: Title
   type: text
@@ -18,6 +18,10 @@ fields:
   type: text
   hidden: false
   default: ''
+- type: image_gallery
+  name: additional-images
+  label: Additional Images
+  description: Additional Images for the Carousel
 - name: price
   label: Price
   type: text
@@ -28,7 +32,3 @@ fields:
   type: list
   hidden: false
   default: ''
-- type: image_gallery
-  name: additional-images
-  label: Additional Images
-  description: Additional Images for the Carousel
