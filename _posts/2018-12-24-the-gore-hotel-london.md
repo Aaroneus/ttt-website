@@ -18,3 +18,6 @@ highlights:
 date: 2018-12-24 12:47:28 +0000
 
 ---
+The Gore is like super awesome.
+
+The second paragraph is here and will only appear on the deal page.
