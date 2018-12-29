@@ -16,7 +16,7 @@ additional-images:
     - /images/dub11.jpg
     - /images/dub12.jpg
     - /images/dub13.jpg
-price: 995pp
+price: From 995pp
 highlights:
     - 5 nights
     - 6th June 2019
