@@ -1,8 +1,8 @@
 - name: Home
-  link: /newindex.html
+  link: /index.html
 - name: Our Deals
   link: /alldeals.html
 - name: About Us
-  link: /newindex.html#three
+  link: /index.html#three
 - name: Get In Touch
-  link: /newindex.html#four
+  link: /index.html#four
