@@ -1,11 +1,22 @@
 ---
 layout: default
 ---
+
+<!-- Banner -->
+<section id="banner">
+	<img src="{{ '/images/logo2.png' | relative_url }}" alt="logo" />
+	<br />
+	<ul class="actions">
+		<li>
+			<a href="#one" class="button big special">See Our Deals</a>
+		</li>
+	</ul>
+</section>
 <section id="one" class="wrapper style1 special">
 	<div class="inner">
 		<header class="major narrow	">
 			<h2>All Our Deals</h2>
 		</header>
-		{% include deals_all.html %}			
+		{% include deals_all.html %}
 	</div>
 </section>
