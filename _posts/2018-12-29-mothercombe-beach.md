@@ -1,5 +1,5 @@
 ---
-layout: ''
+layout: Post
 title: Mothercombe Beach
 main-image: "/uploads/IMG-20181227-WA0060.jpg"
 additional-images:
