@@ -5,7 +5,7 @@
     </span>
     <div class="content">
         <h2>{{ post.title }}</h2>
-        <p>{{ post.excerpt }}</p>        
+        <p>{{ post.excerpt }}</p>
         <ul class="actions">
             <li>
                 <a href="{{ post.url | relative_url}}" class="button alt">More</a>
@@ -14,3 +14,8 @@
     </div>
 </article>
 {% endfor %}
+<ul class="actions">
+    <li>
+        <a href="{{ alldeals.html | relative_url}}" class="button big special">See All Deals</a>
+    </li>
+</ul>
