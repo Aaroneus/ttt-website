@@ -18,4 +18,4 @@ date: 2018-12-29 09:38:25 +0000
 ---
 Mothercombe beach is a lovely beach in south devon. A great place for all the family. 
 
-It's in the river erm estuary and has an amazing cafe! 
+It's in the river erm estuary and has an amazing cafe!
