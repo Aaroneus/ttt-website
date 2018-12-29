@@ -1,17 +1,14 @@
 ---
 layout: default
 ---
-<header class="major">
-	<h2>
-		<img src="{{ '/images/logo.png' | relative_url }}" width="200px" height="200px" alt="logo" />
-	</h2>
-	<h2>{{ page.title }}</h2>
-</header>
 <section id="one" class="wrapper style1 special">
 	<div class="inner">
-		<header class="major narrow	">
+		<header class="major narrow">
+			<h2>
+				<img src="{{ '/images/logo.png' | relative_url }}" width="200px" height="200px" alt="logo" />
+			</h2>
 			<h2>All Our Deals</h2>
-		</header>
+		</header>		
 		{% include deals_all.html %}
 	</div>
 </section>
