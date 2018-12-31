@@ -32,5 +32,6 @@ fields:
   hidden: false
   default: ''
 pages:
+- _posts/lyde-green-community-centre.md
 - _posts/2018-12-24-the-gore-hotel-london.md
 - _posts/2018-12-29-mothercombe-beach.md
